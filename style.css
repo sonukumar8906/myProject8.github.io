@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider {
+    /* text-align: center; */
+    height: 53svh;
+    /* align-content: center; */
+}
+
+input {
+    width: 50rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    background: #f293f2;
+    outline: none;
+    color: white;
+    padding: 0 10px 0 10px;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 4.5rem 0 0 4rem;
+}
+
+.slider {
+    background: url("https://ps.w.org/ml-slider/assets/banner-1544x500.png?rev=2907610");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 53vh;
+}
+
+.parent-container {
+    background: #acb8c4;
+
+}
+
+#main-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.image-container img {
+    box-shadow: 5px 5px 5px black;
+    width: 11rem;
+    height: 11rem;
+    border-radius: 100px;
+}
+
+.image-container img:hover {
+    box-shadow: 8px 8px 8px black;
+}
+
+.brand {
+    text-align: center;
+}
+
+.coffee-content {
+    padding: 0 101px 0 101px;
+}
+
+.child {
+    background: #e99ebb;
+    padding: 30px 100px 30px 100px;
+    margin-top: 33px;
+}
+
+.list-coffee {
+    margin-top: 44px;
+}
